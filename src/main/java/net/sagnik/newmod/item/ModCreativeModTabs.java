@@ -13,11 +13,12 @@ public class ModCreativeModTabs
 {
     public  static  final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, NewMod.MOD_ID);
 
-    public  static  final RegistryObject<CreativeModeTab> NEWMOD_TAB = CREATIVE_MODE_TABS.register("newmod_tab", () -> CreativeModeTab.builder().icon(()->new ItemStack(ModItems.DIAMOND.get()))
+    public  static  final RegistryObject<CreativeModeTab> NEWMOD_TAB = CREATIVE_MODE_TABS.register("newmod_tab", () -> CreativeModeTab.builder().icon(()->new ItemStack(ModItems.SAPPHIRE.get()))
             .title(Component.translatable("creativetab.newmod_tab"))
             .displayItems((pParameters, pOutput) -> {
                 pOutput.accept(ModItems.SAPPHIRE.get());
                 pOutput.accept(ModItems.DIAMOND.get());
+                pOutput.accept(ModItems.MAGICWAND.get());
             })
             .build());
 

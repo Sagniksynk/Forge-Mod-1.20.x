@@ -52,6 +52,7 @@ public class NewMod
         if(event.getTabKey()== CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.SAPPHIRE);
             event.accept(ModItems.DIAMOND);
+            event.accept(ModItems.MAGICWAND);
         }
     }
 
