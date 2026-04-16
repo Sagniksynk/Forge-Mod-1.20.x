@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.sagnik.newmod.NewMod;
+import net.sagnik.newmod.block.ModBlocks;
 
 public class ModCreativeModTabs
 {
@@ -19,6 +20,8 @@ public class ModCreativeModTabs
                 pOutput.accept(ModItems.SAPPHIRE.get());
                 pOutput.accept(ModItems.DIAMOND.get());
                 pOutput.accept(ModItems.MAGICWAND.get());
+                pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                pOutput.accept(ModBlocks.DIAMOND_BLOCK.get());
             })
             .build());
 
