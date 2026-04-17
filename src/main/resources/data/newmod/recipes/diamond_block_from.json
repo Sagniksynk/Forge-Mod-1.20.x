@@ -1,0 +1,21 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    "#$#",
+    "#$#",
+    "#$#"
+  ],
+  "key" : {
+    "#" : {
+      "item" : "newmod:diamond"
+    },
+    "$" : {
+      "item" : "newmod:sapphire"
+    }
+  },
+  "result" : {
+    "item" : "newmod:diamond_block",
+    "count" : 1
+  }
+}
