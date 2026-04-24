@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["S S", "SSS", "SSS"],
+  "key": { "S": { "item": "newmod:sapphire" } },
+  "result": { "item": "newmod:corrupted_chestplate", "count": 1 }
+}

@@ -22,6 +22,21 @@ public class ModCreativeModTabs
                 pOutput.accept(ModItems.MAGICWAND.get());
                 pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                 pOutput.accept(ModBlocks.DIAMOND_BLOCK.get());
+                pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
+                pOutput.accept(ModItems.RAW_SAPPHIRE.get());
+                pOutput.accept(ModItems.METAL_DETECTOR.get());
+                pOutput.accept(ModBlocks.SOUND_BLOCK.get());
+                pOutput.accept(ModItems.SAPPHIRE_BERRY.get());
+                pOutput.accept(ModItems.CORRUPTED_SOUL_STEW.get());
+                pOutput.accept(ModItems.MYSTERIOUS_FLESH.get());
+                pOutput.accept(ModItems.SOUL_COOKBOOK.get());
+                pOutput.accept(ModItems.CORRUPTED_HELMET.get());
+                pOutput.accept(ModItems.CORRUPTED_CHESTPLATE.get());
+                pOutput.accept(ModItems.CORRUPTED_LEGGINGS.get());
+                pOutput.accept(ModItems.CORRUPTED_BOOTS.get());
+                pOutput.accept(ModItems.PISTOL.get());
+                pOutput.accept(ModItems.RIFLE.get());
+                pOutput.accept(ModItems.SHOTGUN.get());
             })
             .build());
 

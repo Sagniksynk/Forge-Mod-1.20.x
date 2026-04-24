@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["SSS", "S S"],
+  "key": { "S": { "item": "newmod:sapphire" } },
+  "result": { "item": "newmod:corrupted_helmet", "count": 1 }
+}

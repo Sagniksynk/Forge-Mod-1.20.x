@@ -14,8 +14,12 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.sagnik.newmod.block.ModBlocks;
+import net.sagnik.newmod.entity.BulletEntity;
 import net.sagnik.newmod.item.ModCreativeModTabs;
 import net.sagnik.newmod.item.ModItems;
+import net.sagnik.newmod.keybinding.ModKeyBindings;
+import net.sagnik.newmod.network.ModMessages;
+import net.sagnik.newmod.sound.ModSounds;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -34,12 +38,16 @@ public class NewMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModSounds.register(modEventBus);
+        BulletEntity.register(modEventBus);
+        ModMessages.register();
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
+        modEventBus.addListener(ModKeyBindings::register);
 
     }
 

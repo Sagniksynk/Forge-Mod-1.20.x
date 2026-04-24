@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model" : "newmod:block/sapphire_ore"
+    }
+  }
+}

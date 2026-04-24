@@ -113,6 +113,7 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
+
     // Put repositories for dependencies here
     // ForgeGradle automatically adds the Forge maven and Maven Central for you
 
@@ -121,6 +122,9 @@ repositories {
     // flatDir {
     //     dir 'libs'
     // }
+}
+configurations {
+    implementation.resolutionStrategy.force "vazkii.patchouli:Patchouli:1.20.1-85-FORGE"
 }
 
 dependencies {

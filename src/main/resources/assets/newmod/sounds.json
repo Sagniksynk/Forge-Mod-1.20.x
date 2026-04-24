@@ -1,0 +1,7 @@
+{
+  "pistol_shoot": { "sounds": [{"name": "newmod:pistol_shoot", "stream": false}] },
+  "rifle_shoot":  { "sounds": [{"name": "newmod:rifle_shoot",  "stream": false}] },
+  "shotgun_shoot":{ "sounds": [{"name": "newmod:shotgun_shoot","stream": false}] },
+  "gun_reload":   { "sounds": [{"name": "newmod:gun_reload",   "stream": false}] },
+  "gun_empty":    { "sounds": [{"name": "newmod:gun_empty",    "stream": false}] }
+}

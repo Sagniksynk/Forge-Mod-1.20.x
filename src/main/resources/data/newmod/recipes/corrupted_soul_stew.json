@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "newmod:mysterious_flesh"
+  },
+  "result": "newmod:corrupted_soul_stew",
+  "experience": 1.0,
+  "cookingtime": 200
+}

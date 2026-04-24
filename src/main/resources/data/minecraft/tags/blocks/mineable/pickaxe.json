@@ -1,6 +1,7 @@
 {
   "values" : [
     "newmod:sapphire_block",
-    "newmod:diamond_block"
+    "newmod:diamond_block",
+    "newmod:sapphire_ore"
   ]
 }

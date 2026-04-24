@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "glowing=false": {
+      "model": "newmod:block/sound_block"
+    },
+    "glowing=true": {
+      "model": "newmod:block/sound_block_glow"
+    }
+  }
+}

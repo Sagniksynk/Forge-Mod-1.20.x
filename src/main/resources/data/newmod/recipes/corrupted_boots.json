@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["S S", "S S"],
+  "key": { "S": { "item": "newmod:sapphire" } },
+  "result": { "item": "newmod:corrupted_boots", "count": 1 }
+}
