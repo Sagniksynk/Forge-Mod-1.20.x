@@ -1,4 +1,4 @@
-# ⚔️ New Mod
+# ⚔️ Sagnik's Forge Mod
 
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.20.1-green?style=flat&logo=minecraft)
 ![Forge](https://img.shields.io/badge/Forge-47.4.20-orange?style=flat)
