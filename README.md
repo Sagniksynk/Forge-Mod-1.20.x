@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-MIT-success)
 ![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
 
-**New Mod** is a Minecraft Forge mod for **1.20.1** that introduces a diverse set of features — from a fully functional **firearms system** with ammo management and custom sounds, to **corrupted soul-themed armor & food**, a custom **ore and gem material**, and interactive utility items. Built on a clean, event-driven architecture using Forge's `DeferredRegister` and Capability system.
+This is a Minecraft Forge mod for **1.20.1** that introduces a diverse set of features — from a fully functional **firearms system** with ammo management and custom sounds, to **corrupted soul-themed armor & food**, a custom **ore and gem material**, and interactive utility items. Built on a clean, event-driven architecture using Forge's `DeferredRegister` and Capability system.
 
 ## 🎮 Mod Features
 
